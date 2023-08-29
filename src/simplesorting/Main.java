@@ -2,6 +2,7 @@ package simplesorting;
 
 import array.DisplayArray;
 import simplesorting.bubblesort.BubbleSort;
+import simplesorting.insertionsort.InsertionSort;
 import simplesorting.selectionsort.SelectionSort;
 
 public class Main {
@@ -16,7 +17,8 @@ public class Main {
         array[6]=10;
         DisplayArray.print(array);
 //        BubbleSort.sort(array);
-        SelectionSort.sort(array);
+//        SelectionSort.sort(array);
+        InsertionSort.sort(array);
         DisplayArray.print(array);
     }
 }
