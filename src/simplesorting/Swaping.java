@@ -6,4 +6,10 @@ public class Swaping {
         array[posA] = array[posB];
         array[posB] = temp;
     }
+
+    public static void swap(long[] array, int posA, int posB){
+        long temp = array[posA];
+        array[posA] = array[posB];
+        array[posB] = temp;
+    }
 }
