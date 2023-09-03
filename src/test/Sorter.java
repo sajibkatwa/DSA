@@ -2,6 +2,13 @@ package test;
 
 import simplesorting.Swaping;
 
+/**
+ * Average time
+ *
+ * Bubble sort => 74 ms
+ * Selection sort => 47 ms
+ * Insertion sort => 21 ms
+ */
 public class Sorter {
     public static void bubbleSort(long[] array){
         for(int out=array.length-1; out>0; out--){
