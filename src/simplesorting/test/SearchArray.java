@@ -1,4 +1,4 @@
-package test;
+package simplesorting.test;
 
 public class SearchArray {
     public static int binarySearch(int[] array, int key){

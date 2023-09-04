@@ -1,7 +1,7 @@
 package array;
 
 import array.binarysearch.BinarySearch;
-import linearsearch.LinearSearch;
+import array.linearsearch.LinearSearch;
 
 public class Main {
     public static void main(String[] args) {

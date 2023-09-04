@@ -1,4 +1,4 @@
-package test;
+package simplesorting.test;
 
 import simplesorting.Swaping;
 
